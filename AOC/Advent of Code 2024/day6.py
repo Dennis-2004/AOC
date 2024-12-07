@@ -59,7 +59,6 @@ def part1(map):
 def part2(map, visited):
     total = 0
     width = len(map.split('\n')[0]) + 1
-    height = len(map.split('\n'))
     pos = map.index('^')
 
     for loc in visited:
