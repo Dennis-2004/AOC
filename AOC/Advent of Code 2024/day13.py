@@ -23,7 +23,7 @@ def part1(data, part2=0):
         total += 3 * a + b if (max(a, b) <= 100 or part2) else 0
     return total
 
-data = open('day13.txt').read()
+data = open('data/day13.txt').read()
 values = re.findall(r'\d+', data)
 games = defaultdict(dict)
 

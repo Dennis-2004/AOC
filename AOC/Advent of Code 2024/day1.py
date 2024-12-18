@@ -23,7 +23,7 @@ def part2(left, right):
 
     return total
 
-lines = open("day1.txt").readlines()
+lines = open("data/day1.txt").readlines()
 
 left = []
 right = []

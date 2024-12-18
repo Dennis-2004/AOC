@@ -20,7 +20,7 @@ def part1(map, part2=False):
         total += ends
     return total
 
-map = open("day10.txt").readlines()
+map = open("data/day10.txt").readlines()
 for x in range(len(map)):
     map[x] = [int(i) for i in map[x].split()[0]]
 

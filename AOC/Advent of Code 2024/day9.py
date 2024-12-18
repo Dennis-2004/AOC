@@ -38,7 +38,7 @@ def part2(files, empty):
     return sum(sum([[x[2]*i for i in range(x[0], x[0]+x[1])] for x in files],[]))
 
 
-disk = open("day9.txt").readline().split()
+disk = open("data/day9.txt").readline().split()
 disk = [int(x) for x in disk[0]]
 
 files = []

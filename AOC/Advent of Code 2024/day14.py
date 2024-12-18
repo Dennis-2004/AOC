@@ -50,7 +50,7 @@ def part2(bots, bounds):
             return(i)
 
 
-data = open('day14.txt').readlines()
+data = open('data/day14.txt').readlines()
 bounds = (101, 103)
 bots = [bot(x, bounds) for x in data]
 data = [x.getPos(100) for x in bots]

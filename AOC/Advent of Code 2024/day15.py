@@ -63,7 +63,7 @@ def part1(map, moves, bot, part2=False):
 
 bounds = [51, 11, 8]
 x = bounds[0]
-data = open('day15.txt').read()
+data = open('data/day15.txt').read()
 bot = (data.find('@') % x, data.find('@') // x)
 data = data.split('\n\n')
 map = [list(x) for x in data[0].split()]

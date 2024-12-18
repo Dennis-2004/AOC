@@ -40,7 +40,7 @@ def part2(data):
                 total += 1
     return total
 
-lines = open("day4.txt").read()
+lines = open("data/day4.txt").read()
 
 print(part2(lines))
 

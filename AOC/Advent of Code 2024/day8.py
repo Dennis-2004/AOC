@@ -30,7 +30,7 @@ def part1(map, freqs, max=0):
     return len(antinodes)
 
 
-map = open("day8.txt").readlines()
+map = open("data/day8.txt").readlines()
 freqs = defaultdict(list)
 
 for y in range(len(map)):

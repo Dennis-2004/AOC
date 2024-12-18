@@ -64,7 +64,7 @@ def part1(data):
 
 
 start = time.time()
-data = open('day16.txt').read()
+data = open('data/day16.txt').read()
 best_score, total_seats = part1(data)
 
 print(best_score)

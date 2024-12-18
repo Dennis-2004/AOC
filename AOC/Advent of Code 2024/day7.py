@@ -34,7 +34,7 @@ def part1(equations, part2=False):
     return total
 
 
-equations = open("day7.txt").readlines()
+equations = open("data/day7.txt").readlines()
 
 print(part1(equations))
 print(part1(equations, True))

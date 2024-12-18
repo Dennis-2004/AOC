@@ -23,5 +23,5 @@ def parts(stones, n):
     return sum(stone_dict.values())
 
 
-stones = [int(x) for x in open("day11.txt").readlines()[0].split()]
+stones = [int(x) for x in open("data/day11.txt").readlines()[0].split()]
 print(parts(stones, 75))

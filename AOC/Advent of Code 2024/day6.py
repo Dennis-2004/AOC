@@ -71,7 +71,7 @@ def part2(map, visited):
                 total += 1
     return total
 
-map = open("day6.txt").read()
+map = open("data/day6.txt").read()
 visited, _ = part1(map)
 print(len(visited))
 print(part2(map, visited))

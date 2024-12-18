@@ -53,7 +53,7 @@ def part2(data):
 
     return total
 
-lines = open("day2.txt").readlines()
+lines = open("data/day2.txt").readlines()
 data = []
 
 for line in lines:

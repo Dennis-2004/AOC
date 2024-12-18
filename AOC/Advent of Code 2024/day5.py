@@ -34,7 +34,7 @@ def part1(rules, order):
     return total, wrong
 
 
-text = open("day5.txt").read()
+text = open("data/day5.txt").read()
 rules_t = re.findall(r'\d+\|\d+', text)
 order = re.findall(r'\b\d+(?:,\d+)+\b', text)
 

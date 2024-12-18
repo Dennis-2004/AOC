@@ -28,6 +28,6 @@ def part2(data):
 
     return total
 
-data = open("day3.txt").read()
+data = open("data/day3.txt").read()
 
 print(part2(data))

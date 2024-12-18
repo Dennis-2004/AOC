@@ -52,7 +52,7 @@ def getRegions(data):
     return regions
 
 
-data = open('day12.txt').readlines()
+data = open('data/day12.txt').readlines()
 regions = getRegions(data)
 part1, part2 = parts(regions, data)
 print(part1)
