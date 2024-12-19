@@ -3,7 +3,7 @@
 		"prefix": "start",
 		"body": [
 			"def part1(data):\n\tpass\n",
-			"data = open('${TM_FILENAME_BASE}.txt').readlines()",
+			"data = open('data/${TM_FILENAME_BASE}.txt').readlines()",
 			"print(part1(data))"
 		],
 		"description": "Personal AoC snippet"
