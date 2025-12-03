@@ -1,3 +1,7 @@
+*.o
+AOC/Advent of Code 2025/day*
+!*.cpp
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
