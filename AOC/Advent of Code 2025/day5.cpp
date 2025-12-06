@@ -31,7 +31,6 @@ long part2(vector<pair<long,long>> ranges) {
   while (!ranges.empty()) {
     pair<long,long> range = ranges.front();
     ranges.erase(ranges.begin());
-    // cout << range.first << " " << range.second << endl;
 
     if (merged.empty()) {
       merged.push_back(range);
@@ -48,7 +47,6 @@ long part2(vector<pair<long,long>> ranges) {
 
   for (pair<long,long> range: merged) {
     res += (range.second - range.first + 1);
-    // cout << range.first << " " << range.second << endl;
   }
 
   return res;

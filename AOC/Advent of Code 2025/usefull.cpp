@@ -13,7 +13,9 @@ vector<string> split(string s, char c) {
     size_t pos = s.find_first_of(c);
 
     if (pos != string::npos) {
-      out.push_back(s.substr(0, pos));
+      string sub = s.substr(0, pos);
+
+      if (sub.compare("") != 0) out.push_back(s.substr(0, pos));
       s = s.substr(pos + 1, s.length());
     } else {
       out.push_back(s);
